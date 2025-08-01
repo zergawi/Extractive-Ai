@@ -1,0 +1,24 @@
+# Deep Learning Frameworks
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Transformers and NLP
+transformers[torch]
+datasets
+evaluate
+sentencepiece
+
+# TensorFlow
+tensorflow==2.10
+tensorflow-text==2.10.0
+
+# GUI Framework
+PyQt5
+
+# Utilities and Protocols
+protobuf==3.20.*
+
+# Monitoring and Visualization
+tensorboard
